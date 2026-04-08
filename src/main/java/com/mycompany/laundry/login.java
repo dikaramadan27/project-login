@@ -4,6 +4,8 @@
  */
 package com.mycompany.laundry;
 
+import com.mycompany.laundry.dashboard_admin;
+
 /**
  *
  * @author LENOVO
@@ -36,6 +38,7 @@ public class login extends javax.swing.JFrame {
         pass = new javax.swing.JPasswordField();
         jLabel6 = new javax.swing.JLabel();
         login = new javax.swing.JButton();
+        gambar = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -81,9 +84,10 @@ public class login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(login, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 260, 30));
+        jPanel1.add(gambar, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\OneDrive\\Documents\\NetBeansProjects\\laundry\\src\\main\\java\\img\\—Pngtree—a cute cartoon washing machine_23355340 (1).png")); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 0, 300, 450));
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\NetBeansProjects\\laundry\\src\\main\\java\\gambar\\logo.png")); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, 290, 420));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -93,7 +97,9 @@ public class login extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 453, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -156,6 +162,7 @@ public class login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField email;
+    private javax.swing.JLabel gambar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
