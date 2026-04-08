@@ -82,8 +82,8 @@ public class login extends javax.swing.JFrame {
         });
         jPanel1.add(login, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 260, 30));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/—Pngtree—a cute cartoon washing machine_23355340 (1).png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 0, 320, 450));
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\OneDrive\\Documents\\NetBeansProjects\\laundry\\src\\main\\java\\img\\—Pngtree—a cute cartoon washing machine_23355340 (1).png")); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 0, 300, 450));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -161,12 +161,12 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/&#x2014;Pngtree&#x2014;a cute cartoon washing machine_23355340 (1).png"/>
+              <Image iconType="2" name="C:\Users\LENOVO\OneDrive\Documents\NetBeansProjects\laundry\src\main\java\img\&#x2014;Pngtree&#x2014;a cute cartoon washing machine_23355340 (1).png"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="460" y="0" width="320" height="450"/>
+              <AbsoluteConstraints x="460" y="0" width="300" height="450"/>
             </Constraint>
           </Constraints>
         </Component>
